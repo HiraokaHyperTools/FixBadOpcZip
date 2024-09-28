@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard20</TargetFrameworks>
+
+    <PackageId>HiraokaHyperTools.FixBadOpcZip</PackageId>
+    <Version>0.1.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>kenjiuno</Authors>
+    <Company>kenjiuno</Company>
+    <Description>Fix the invalid OPC file (xps file) created with `System.IO.Packaging.Package.InStreamingCreation` option enabled.</Description>
+    <!-- https://spdx.org/licenses/ -->
+    <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/HiraokaHyperTools/FixBadOpcZip</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HiraokaHyperTools/FixBadOpcZip.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
